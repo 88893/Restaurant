@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoul Sista Bestellen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/4526edc78a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="shortcut icon" href="./Media/logo_transparant_5.png" type="image/x-icon">
+
+</head>
+
+<body class="h-screen bg-[#f0bebb] select-none overflow-x-hidden font-['MuseoSans-300']">
+
+
+    <!------------  NavBar Start ------------>
+
+
+    <header class="text-white text-2xl bg-[#252525] relative flex">
+        <div class="mr-6">
+            <ul class="flex items-center absolute right-4 top-[15px] font-semibold text-[30px]">
+                <li class="p-4 duration-300 link link-underline link-underline-black"><a href="#">Menu</a></li>
+                <li class="p-4 duration-300 link link-underline link-underline-black"><a
+                        href="./Bestellen.html">Bestellen</a></li>
+                <li class="p-4 duration-300 link link-underline link-underline-black"><a
+                        href="./informatie.html">Info</a></li>
+                <li class="p-4 duration-300 link link-underline link-underline-black"><i
+                        class="winkelmandjetoggle fa-solid fa-cart-shopping cursor-pointer"></i></li>
+            </ul>
+        </div>
+        <div>
+            <a class="max-[450px]:pointer-events-none" href="./index.html"><img
+                    class="py-2 max-[350px]:opacity-0 hover:rotate-[360deg] duration-1000"
+                    src="./Media/logo_transparant_5.png" alt="Logo Seoul Sista" width="100px"></a>
+        </div>
+    </header>
+    <header class="bg-[url('./Media/Headerimg.jpg')] bg-blend-darken flex items-center justify-center bg-top h-[25vh]">
+        <h2 class="neonText text-[70px] font-extrabold font-['Helvetica']">
+            Seoul Sista
+          </h2>
+    </header>
+
+
+    <!------------  NavBar End ------------>
+
+    <!------------  Bestel Section Start ------------>
+
+
+    <section
+        class="grid grid-cols-4 place-items-center mt-8 ml-4 text-gray-800 max-[1600px]:grid-cols-2 max-[800px]:grid-cols-none">
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Chicken menu.jpg" alt="Fried Chicken" width="350px">
+            </div>
+            <div class="h-100">
+                <h1 class="mt-4 text-[25px] font-semibold">Gebakken kip menu: &#x20AC;21,99PP</h1>
+                <button data-target="#overlay1"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Noodle menu.jpg" alt="Noodle Menu" width="350px">
+            </div>
+            <div>
+                <h1 class="mt-4 text-[25px] font-semibold">Noodle Menu: &#x20AC;14,99PP</h1>
+                <button data-target="#overlay2"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Rijst menu.jpg" alt="Rijst Menu" width="350px">
+            </div>
+            <div>
+                <h1 class="mt-4 text-[25px] font-semibold">Rijst Menu: &#x20AC;17,99PP</h1>
+                <button data-target="#overlay3"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Vis menu.jpg" alt="Vis Menu" width="350px">
+            </div>
+            <div>
+                <h1 class="mt-4 text-[25px] font-semibold">Vis Menu: &#x20AC;19,99PP</h1>
+                <button data-target="#overlay4"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+    </section>
+    <section
+        class="grid grid-cols-4 place-items-center mt-4 ml-4 text-gray-800 max-[1600px]:grid-cols-2 max-[800px]:grid-cols-none">
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Beef menu.jpg" alt="Beef Menu" width="350px">
+            </div>
+            <div class="h-100">
+                <h1 class="mt-4 text-[25px] font-semibold">Beef menu: &#x20AC;24,99PP</h1>
+                <button data-target="#overlay5"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/SeaFood menu.jpg" alt="SeaFood Menu" width="350px">
+            </div>
+            <div>
+                <h1 class="mt-4 text-[25px] font-semibold">SeaFood Menu: &#x20AC;34,99PP</h1>
+                <button data-target="#overlay6"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Pork menu.webp" alt="Pork Menu" width="350px">
+            </div>
+            <div>
+                <h1 class="mt-4 text-[25px] font-semibold">Pork Menu: &#x20AC;28,99PP</h1>
+                <button data-target="#overlay7"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+        <div class="grid grid-rows-2">
+            <div>
+                <img class="rounded-lg aspect-square" src="./Media/Soep menu.jpg" alt="Soep Menu" width="350px">
+            </div>
+            <div>
+                <h1 class="mt-4 text-[25px] font-semibold">Soep Menu: &#x20AC;9,99PP</h1>
+                <button data-target="#overlay8"
+                    class="openOverlay rounded-lg bg-[#252525] text-white p-[16px] w-full mt-3 hover:scale-110 duration-300">Meer
+                    Info</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------  Bestel Section End ------------>
+
+    <!------------  Overlay Section Start ------------>
+
+
+    <section id="overlay1" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Chicken menu.jpg" alt="Fried Chicken"
+                        width="350px">
+                </div>
+                <div>
+                    <h1 class="mt-4 text-[30px] font-semibold">Gebakken kip menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 Portie Gebakken kip, 1 Portie
+                        Dakgangjeong, 1 Portie Kip
+                        gimbap.</p>
+                    <button data-target="#menu1"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu1"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay1"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-6 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay2" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Noodle menu.jpg" alt="Noodle Menu" width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">Noodle Menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 keer de Nengmyun Cold Noodles en 1
+                        keer
+                        de
+                        Yone Salad.</p>
+                    <button data-target="#menu2"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu2"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay2"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay3" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Rijst menu.jpg" alt="Rijst Menu" width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">Rijst Menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 keer de Bibimbab en 1 keer de Hae
+                        Cho.
+                    </p>
+                    <button data-target="#menu3"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu3"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay3"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay4" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Vis menu.jpg" alt="Vis Menu" width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">Vis Menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 keer de Sashimi Samlon/Tuna en 1
+                        keer de
+                        Yone Salad.</p>
+                    <button data-target="#menu4"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu4"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay4"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay5" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Beef menu.jpg" alt="Beef Menu" width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">Beef menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 La Kalbi en 1 Deungshim Gui en 1
+                        keer de
+                        Wan Du Kong.
+                    </p>
+                    <button data-target="#menu5"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu5"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay5"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay6" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/SeaFood menu.jpg" alt="SeaFood Menu"
+                        width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">SeaFood Menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 keer de Ohjinge Gui, 1 keer de
+                        Scallops
+                        en
+                        de
+                        Yone Salad.</p>
+                    <button data-target="#menu6"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu6"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay6"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay7" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Pork menu.webp" alt="Prok Menu" width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">Pork Menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 keer Yan Go Gi Gui, 1 keer de
+                        Samguybsal
+                        Gui.
+                    </p>
+                    <button data-target="#menu7"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu7"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay7"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overlay8" class="overlay fixed inset-0 hidden bg-black bg-opacity-50 flex justify-center items-center">
+        <div class="overlay-content bg-[#f0bebb] rounded-lg p-8 w-[50vw]">
+            <div class="grid grid-cols-2 relative place-items-center">
+                <div>
+                    <img class="rounded-lg aspect-square" src="./Media/Soep menu.jpg" alt="Soep Menu" width="350px">
+                </div>
+                <div class="relative">
+                    <h1 class="mt-4 text-[30px] font-semibold">Soep Menu</h1>
+                    <p class="max-w-[350px] leading-[27px]">Bij dit menu krijgt u 1 keer de Kalbi Tang en 1 keer de Yone
+                        Salad.</p>
+                    <button data-target="#menu8"
+                        class="toevoegen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">+</button>
+                    <button data-target="#menu8"
+                        class="verwijderen rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">-</button>
+                    <button data-target="#overlay8"
+                        class="Sluiten rounded-lg bg-[#252525] text-white p-[16px] w-[32%] mt-3 hover:scale-110 duration-300">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------  Overlay Sections End ------------>
+
+    <!------------  Winkelmandje Start ------------>
+
+    <section
+        class="winkelmandje translate-x-[20rem] duration-1000 fixed top-[8vh] h-fit text-white w-[280px] bg-[#252525] rounded-lg right-0">
+        <div>
+            <ul class="flex justify-between items-center">
+                <li class="ml-4">Gerecht</li>
+                <li class="mr-4">Aantal</li>
+                <li class="mr-12">Prijs</li>
+            </ul>
+        </div>
+        <div id="menu1" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Chicken menu.jpg" alt="Chicken menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;21,99PP</p>
+        </div>
+        <div id="menu2" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Noodle menu.jpg" alt="Noodle menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;14.99PP</p>
+        </div>
+        <div id="menu3" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Rijst menu.jpg" alt="Rijst menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;17.99PP</p>
+        </div>
+        <div id="menu4" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Vis menu.jpg" alt="Vis menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;19.99PP</p>
+        </div>
+        <div id="menu5" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Beef menu.jpg" alt="Beef menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;24.99PP</p>
+        </div>
+        <div id="menu6" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/SeaFood menu.jpg" alt="SeaFood menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;34.99PP</p>
+        </div>
+        <div id="menu7" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Pork menu.webp" alt="Pork menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;28.99PP</p>
+        </div>
+        <div id="menu8" class="flex items-center hidden">
+            <img class="rounded-lg mt-4 ml-2" src="./Media/Soep menu.jpg" alt="Soep menu" width="75px">
+            <input class="aantal w-[50px] rounded-lg ml-6 mt-2 p-1 text-black" type="number" value="1" min="1" max="10">
+            <p class="Prijs mt-2 ml-6">Prijs: &#x20AC;9.99PP</p>
+        </div>
+        <div class="mt-4 mb-4 flex flex-col justify-center items-center">
+            <p>Totaal in &#x20AC;: <input class="totaal rounded-lg text-black p-1" type="number" min="0" value="0"
+                    readonly></p>
+            <button
+                class="afrekenen rounded-lg bg-[#f0bebb] text-[#252525] p-[16px] w-[200px] mt-3 duration-300">Afrekenen</button>
+        </div>
+    </section>
+
+    <!------------  Winkelmandje End ------------>
+
+    <!------------  Footer ------------>
+
+    <footer class="bg-[#252525] flex justify-center flex-row mt-4 text-white px-6 pb-[8rem] pt-[4rem]">
+        <div class="grid grid-cols-4 gap-12 max-[900px]:grid-cols-none max-[900px]:grid-rows-4 max-[820px]:pb-none">
+            <div>
+                <h4 class="text-[30px] font-semibold text-[#f0bebb]">Locaties:</h4>
+                <ul class="mt-2">
+                    <li class="mt-2 hover:text-[#f0bebb] duration-300">
+                        Amsterdam
+                        Reguliersdwarsstraat
+                        Centraal
+                    </li>
+                    <li class="mt-2 hover:text-[#f0bebb] duration-300">
+                        Rotterdam
+                        Hartmanstraat
+                        Witte de With
+
+                    </li>
+                    <li class="mt-2 hover:text-[#f0bebb] duration-300">
+                        Rotterdam
+                        Weena
+                        Centraal Station
+
+                    </li>
+                    <li class="mt-2 hover:text-[#f0bebb] duration-300">
+                        Rotterdam
+                        Karaoke & Cafe
+                        Weena
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <h4 class="text-[#f0bebb] font-semibold text-[30px]">Openingstijden:</h4>
+                <table class=mt-2 table-fixed">
+                    <tr>
+                        <td>Maandag</td>
+                        <td class="pl-6">4:45pm – 110pm</td>
+                    </tr>
+                    <tr>
+                        <td>Dinsdag</td>
+                        <td class="pl-6">Gesloten</td>
+                    </tr>
+                    <tr>
+                        <td>Woensdag</td>
+                        <td class="pl-6">4:45pm – 110pm</td>
+                    </tr>
+                    <tr>
+                        <td>Donderdag</td>
+                        <td class="pl-6">4:45pm – 110pm</td>
+                    </tr>
+                    <tr>
+                        <td>Vrijdag</td>
+                        <td class="pl-6">4:45pm – 110pm</td>
+                    </tr>
+                    <tr>
+                        <td>Zaterdag</td>
+                        <td class="pl-6">4:45pm – 110pm</td>
+                    </tr>
+                    <tr>
+                        <td>Zondag</td>
+                        <td class="pl-6">4:45pm – 110pm</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4 class="font-semibold text-[30px] text-[#f0bebb]">Contact:</h4>
+                <h5>Hartmansstraat 31</h5>
+                <h5>3012 VA Rotterdam</h5>
+                <h5 class="mt-3"><a class="hover:text-[#f0bebb] duration-300" href="telto:010 737 0179">010 737 0179</a>
+                </h5>
+                <h5><a class="hover:text-[#f0bebb] duration-300"
+                        href="mailto:reservations@seoulsista.nl">reservations@seoulsista.nl</a></h5>
+                <h5 class="mt-3">Grand Slam Holding BV</h5>
+                <h5>KVK: 69461546</h5>
+            </div>
+            <div class="text-white self-center">
+                <h4 class="opacity-75">© 2023 SEOUL SISTA.</h4>
+                <h4>Site built by Maddox, Yasmin, Emily</h4>
+            </div>
+        </div>
+
+    </footer>
+
+    <!------------  Footer End ------------>
+
+</body>
+<script src="./JS/Bestellen.js" defer></script>
+
+</html>
